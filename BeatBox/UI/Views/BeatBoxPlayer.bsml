@@ -1,0 +1,14 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
+	>
+	<vertical>
+		<horizontal id='bars' background='round-rect-panel' pad-bottom='30'>
+			<image id='barPrefab' image-color='white' size-delta-x='1' size-delta-y='1'></image>
+		</horizontal>
+		<horizontal id='duration' background='round-rect-panel' pad-left='8' pad-right='8' pad-top='30' pad-bottom='18'>
+			<text text='0:69' id='time' font-size='5'></text>
+			<slider-setting id='durationSlider'></slider-setting>
+			<text text='0:69' id='length' font-size='5'></text>
+		</horizontal>
+	</vertical>
+</bg>
